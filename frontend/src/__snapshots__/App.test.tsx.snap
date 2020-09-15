@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Top Level App 1`] = `
+<div>
+  <div
+    class="makeStyles-content-1"
+  >
+    <div
+      class="MuiPaper-root makeStyles-root-2 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <h4
+        class="MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter"
+      >
+        Flowers
+      </h4>
+      <div
+        class="makeStyles-content-3"
+      >
+        <div
+          class="MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed"
+            style="overflow: hidden;"
+          >
+            <div
+              class="MuiTabs-flexContainer MuiTabs-centered"
+              role="tablist"
+            >
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  Flowers
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  Family
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <span
+              class="PrivateTabIndicator-root-4 PrivateTabIndicator-colorPrimary-5 MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+        <div>
+          <div
+            class="MuiPaper-root makeStyles-root-8 MuiPaper-outlined MuiPaper-rounded"
+          >
+            <ul
+              class="MuiList-root MuiList-padding"
+            >
+              Loading...
+              <li
+                class="MuiListItem-root MuiListItem-gutters"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Add Flower
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          hidden=""
+        >
+          <div
+            class="MuiPaper-root makeStyles-root-10 MuiPaper-outlined MuiPaper-rounded"
+          >
+            <ul
+              class="MuiList-root MuiList-padding"
+            >
+              Loading...
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

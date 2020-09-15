@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Queries fetches a list of families 1`] = `
+Object {
+  "data": Object {
+    "families": Array [
+      Object {
+        "flowers": Array [
+          Object {
+            "name": "Irises",
+          },
+          Object {
+            "name": "Gladiolus",
+          },
+          Object {
+            "name": "Coppertips",
+          },
+          Object {
+            "name": "Freesia",
+          },
+        ],
+        "name": "Iridaceae",
+      },
+      Object {
+        "flowers": Array [
+          Object {
+            "name": "Bellflowers",
+          },
+          Object {
+            "name": "Platycodon grandiflorus",
+          },
+        ],
+        "name": "Campanulaceae",
+      },
+      Object {
+        "flowers": Array [
+          Object {
+            "name": "Lily",
+          },
+          Object {
+            "name": "Tulip",
+          },
+          Object {
+            "name": "Fritillaries",
+          },
+          Object {
+            "name": "Fawn lilies",
+          },
+        ],
+        "name": "Liliaceae",
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`Queries fetches a list of flowers 1`] = `
+Object {
+  "data": Object {
+    "flowers": Array [
+      Object {
+        "name": "Irises",
+      },
+      Object {
+        "name": "Gladiolus",
+      },
+      Object {
+        "name": "Coppertips",
+      },
+      Object {
+        "name": "Freesia",
+      },
+      Object {
+        "name": "Bellflowers",
+      },
+      Object {
+        "name": "Platycodon grandiflorus",
+      },
+      Object {
+        "name": "Lily",
+      },
+      Object {
+        "name": "Tulip",
+      },
+      Object {
+        "name": "Fritillaries",
+      },
+      Object {
+        "name": "Fawn lilies",
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
